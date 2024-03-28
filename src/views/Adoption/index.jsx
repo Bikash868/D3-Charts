@@ -66,15 +66,15 @@ const AdoptionDashboard = () => {
       {/* <Grid item xs={12}>
         <DateSlider onChange={onDateRangeUpdate} dateRange={dateObj} appliedRange={dateObj}/>
       </Grid> */}
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <Line name='daily' title={'Daily record count'} axisLabel={{x:'Months', y:'Values'}} data={dailyData}/>
         </Grid>
 
         <Grid item xs={12}>
           <Line name='sum' title={'Total record count'} axisLabel={{x:'Months', y:'Values'}} data={summationData}/>
-        </Grid>
+        </Grid> */}
 
-        {/* <Grid item xs={12}>
+        <Grid item xs={12}>
           <LineBar name='line-bar' title={'Department level Engagement'} axisLabel={{x:'Department', y:'Engagement (in %)'}} lineData={engagementlineData} barData={engagementbarData}/>
         </Grid>
         <Grid item xs={6}>
@@ -82,7 +82,7 @@ const AdoptionDashboard = () => {
         </Grid>
         <Grid item xs={6}>
           <LineScatter name='line-scatter' title={'Average time spent'} axisLabel={{x:'Course IDs', y:'Avg. time spent (in hr)'}}/>
-        </Grid> */}
+        </Grid>
       </Grid>
   )
 }

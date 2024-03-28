@@ -52,7 +52,7 @@ export function LandingLayout(props) {
 					<BackdropLoader />
 				) : (
 					<>		
-						{/* <AppBar
+						<AppBar
 							onSignout={()=>{}}
 							onLogoClick={()=>{}}
 							shrunk={false}
@@ -61,7 +61,7 @@ export function LandingLayout(props) {
 							startAdornment={adornmentComponents[adornments.start.component]}
 							centerAdornment={adornmentComponents[adornments.center.component]}
 							endAdornment={adornmentComponents[adornments.end.component]}
-						/> */}
+						/>
 						<Grid container component="main" sx={{background:'#f7f7f7'}}>
 							{props.children}
 						</Grid>
